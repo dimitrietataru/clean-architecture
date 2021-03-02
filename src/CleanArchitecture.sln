@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9189A4DA-5579-4270-849D-5849991DE2FB}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Application", "CleanArchitecture.Application\CleanArchitecture.Application.csproj", "{1561C97B-4A82-465D-A8E3-70BDEBECE490}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Domain", "CleanArchitecture.Domain\CleanArchitecture.Domain.csproj", "{A8F43472-F5BB-41BF-9401-3262F15BEDB6}"
@@ -36,6 +38,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1561C97B-4A82-465D-A8E3-70BDEBECE490} = {9189A4DA-5579-4270-849D-5849991DE2FB}
+		{A8F43472-F5BB-41BF-9401-3262F15BEDB6} = {9189A4DA-5579-4270-849D-5849991DE2FB}
+		{C55A3221-5E28-43B0-8645-683AF263D308} = {9189A4DA-5579-4270-849D-5849991DE2FB}
+		{0BB42530-7708-455B-B2F2-2EB1FD3C83DA} = {9189A4DA-5579-4270-849D-5849991DE2FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {093F9B5E-F2E6-4A5E-9766-E4A2D991176F}
